@@ -5,4 +5,17 @@ With this dataset, I have created a Jupyter Notebook for  training and evaluatin
 We used Google Colab setup with a graphics card to run this notebook in the  cloud as it does not require heavy compute and can be completed in less than half  an hour. The performance of this AI model was measured at 87.76% accuracy when  identifying 14 different species. 
 This Jupyter notebook is fully automated and will allow you to present your work  as an effective proof of concept achieving a solid level of performance. More data  can easily be collected. It is recommended that the project now is ready to move forward into real world testing and data collection using cameras at fish cleaning tables. Fine tuning is still needed and this small project needs further optimization to yield accurate results. 
 
-SPECIAL THANKS TO : ANDREW CHAIBAN, CONOR ATKINS AND ANDREW THOMPSON FOR HELPING WITH THE PROJECT. This was project was done unde the supervision of Culum Brown (Assistant Director HDR Biology, School of Natural  Sciences, Macquarie University ) as a starting point for research so that the NSW government can monitor recreational fishing more accurately. 
+
+
+The test images were used to evaluate the performance of the artificial  intelligence model. Our key metric is accuracy which measure the proportion of  predictions the model made correctly. 
+Model Evaluation Statistics 
+Species count: 14
+Test Loss: 0.44057
+Test Accuracy: 87.76%
+
+
+
+Here we note that across 14 species, our model predicted 87.76% of the unseen  testing data correctly. We consider this to be a success. 
+Loss during training of the model represents how much the model is changing.  This loss is expected to reduce as the model becomes more accurate. This training  loss reducing to close to zero, representing diminishing returns from further training  after 3 epochs.
+
+
